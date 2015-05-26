@@ -78,7 +78,15 @@ section {
     color: #cecece;
     font-weight: 200;
 }
-
+input[type="text"] {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+}
+input[type="submit"] {
+    margin: 10px;
+    padding: 20px;
+}
 /* Middle Section */
 
 #ryan-image{
