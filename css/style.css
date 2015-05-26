@@ -41,6 +41,24 @@ section {
 
 /* Top Section Styling */
 
+
+#navbar p {
+    float:left;
+    padding: 20px;
+    margin-bottom: 0;
+}
+#navbar ul                                                        {
+    float: right;
+}
+
+#navbar li {
+    display: inline-block;
+    vertical-align: middle; 
+}
+#navbar a {
+    display: block;
+    padding: 20px;
+}
 #top {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
@@ -73,6 +91,7 @@ section {
 
 #bottom {
     background-color: #ccc;
+    text-align: center;
 }
 
 #bottom h3 {
@@ -82,6 +101,10 @@ section {
     font-size: 32px;
 }
 
+#bottom img {
+    max-height: 150;
+    border-radius: 10px;
+}
 .one-half {
     background-color: #fefefe;
     /* border: 1px solid #ccc; */
